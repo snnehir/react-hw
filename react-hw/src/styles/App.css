@@ -1,0 +1,47 @@
+body{
+  background: #F9F9F9;
+}
+
+.container {
+  width: calc(100% - 75px);
+  position: relative;
+  display: inline-block;
+  top: 60px;
+  left: 75px;
+
+}
+
+/* picker styling */
+.greenhouse-picker {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  outline: none;
+}
+
+.picker-label {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #38C34E;
+  margin-right: 10px;
+}
+
+.picker-label img {
+  margin-right: 5px;
+}
+.picker{
+  border-radius: 4px;
+  border: 1px solid #42d4597a;
+  background: #FFF;
+  width: 250px;
+  height: 30px;
+  font-size: 18px;
+  color: #5A5A5F;
+}
+
+/* tab styling */
+
+
+

@@ -1,0 +1,89 @@
+.burger-and-logo {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  overflow-y: hidden;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  padding: 5px;
+  background: #FFF;
+  box-shadow: 0px 2px 5px 0px rgba(88, 215, 255, 0.25);
+}
+
+.burger span {
+  width: 24px;
+  height: 3px;
+  background-color: #2C7618;
+  border-radius: 15px;
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 12px 20px 12px 0px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+/*
+CROSS 
+.burger.active span:nth-child(1) {
+  width: 20px;
+  transform: rotate(45deg) translate(4px, 4px);
+  transition: 0.5s ease;
+}
+
+.burger.active span:nth-child(2) {
+  display: none;
+}
+
+.burger.active span:nth-child(3) {
+  width: 20px;
+  transform: rotate(-45deg) translate(4px, -4px);
+  transition: 0.5s ease;
+}
+*/
+
+.side-menu {
+  position: fixed;
+  z-index: 1;
+  top: 60px;
+  display: inline-block;
+  background: #FFF;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.20);
+  height: 100vh;
+}
+
+.side-menu a {
+  padding: 15px 20px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.side-menu a span {
+  padding-left: 15px;
+  color: #5A5A5F;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.side-menu .menu-items a span {
+  color: #38C34E;
+}
+
+.side-menu a.active,
+.side-menu a:hover {
+  background: linear-gradient(180deg, #E5FFEA 0%, #DDF7FF 100%);
+}
+
+.nav-text-hidden {
+  display: none;
+}
+
+.side-menu hr{
+  border: 0.5px solid #D9D9D9;
+}
+
